@@ -14,7 +14,7 @@ public class Calcula {
         numero2 = Integer.parseInt( JOptionPane.showInputDialog("Coloque o segundo numero"));
         numero3 = numero1 + numero2;
 
-        JOptionPane.showConfirmDialog(null,String.valueOf(numero3),"Resultado",JOptionPane.INFORMATION_MESSAGE);
+        JOptionPane.showMessageDialog(null,String.valueOf(numero3),"Resultado",JOptionPane.INFORMATION_MESSAGE);
 
     }
 }
